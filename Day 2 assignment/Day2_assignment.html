@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment Form</title>
+    <style>
+    h3 {text-align: center; }
+    </style>
+</head>
+<body>
+    <h3>Course Enrollment Form for students</h3><br><br>
+    <form>
+        <label for=" ">Enter your Name : </label><br><br>
+        <input type="text" placeholder="Name" name="name" required="required"><br><br>
+        <label for="">Date of birth : </label><br><br>
+        <input type="date" id="dob" name="dob" required="required"><br><br>
+        <label for="">Gender : </label><br>
+         <input type="radio" name="Gender" value="Male">Male<br>
+         <input type="radio" name="Gender" value="Female">Female<br>
+         <input type="radio" name="Gender" value="Others">Others<br><br>
+        <label for=" ">Enter your Permanent Address : </label><br><br>
+        <address>
+            <input type="text" placeholder="Address" required="required"><br><br>
+        </address>
+        <label for=" ">Enter your City : </label><br><br>
+        <input type="text" placeholder="City" name="city" required="required"><br><br>
+        <label for=" ">Enter your State : </label><br><br>
+        <input type="text" placeholder="State" name="state" required="required"><br><br>
+        <label for=" ">Enter your Phone Number : </label><br><br>
+        <input type="tel" name="phone_number" placeholder="Phone number" pattern="[6-9][0-9]{9}" required="required" ><br><br>
+        <label for="Courses">Please select the course you want to pursue : </label><br><br>
+        <input list="Courses" name="Course" id="Course" required="required">
+        <datalist id="Courses">
+        <option value="Aeronautical Engineering">
+        <option value="Automobile Engineering">
+        <option value="Civil Engineering">
+        <option value="Computer Science and Engineering">
+        <option value="Biotechnology Engineering">
+        <option value="Electrical and Electronics Engineering">
+        <option value="Electronics and Communication Engineering">
+        <option value="Automation and Robotics">
+        <option value="Petroleum Engineering">
+        <option value="Instrumentation Engineering">
+        <option value="Ceramic Engineering">
+        <option value="Chemical Engineering">
+        <option value="Structural Engineering">
+        <option value="Transportation Engineering">
+        <option value="Construction Engineering">
+        <option value="Power Engineering">
+        <option value="Robotics Engineering">
+        <option value="Textile Engineering">
+        <option value="Smart Manufacturing & Automation">
+        </datalist>
+        <br><br>
+        <label for=" ">Additional Comments on expectation from the course(if any) : </label><br><br>
+        <input type="text" placeholder="comments" name="comments" ><br><br>
+        <a href="Terms&Conditions.html">Terms & Conditions</a><br><br>
+        <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset"><br><br>
+    </form>
+</body>
+</html>
