@@ -9,7 +9,7 @@ body {
     width: 500px;
     background-color: rgb(255, 255, 248);
     box-shadow: 0 0 10px 0 rgb(153, 153, 153);
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
